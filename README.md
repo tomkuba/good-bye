@@ -1,20 +1,10 @@
-# byemck
+# good-bye
 
 A fun goodbye console web service made in Javascript.
 
-Blog post: https://medium.com/@atulanand94/building-web-based-uis-for-terminals-using-javascript-60b5eee31213
+Forked/inspired by blog post: https://medium.com/@atulanand94/building-web-based-uis-for-terminals-using-javascript-60b5eee31213
 
-# Demo version:
-
-It is hosted on heroku here:
-
-https://byemck.herokuapp.com/
-
-or here
-
-http://byemck.atulr.com/
-
-
+Created in OCI using Terraform guide https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/tf-provider/01-summary.htm
 
 # To run locally:
 
@@ -34,3 +24,5 @@ or
 
 `wget -q -O - http://localhost:3000/`
 
+# To run on server:
+`docker build -t good-bye . && docker run -it --restart unless-stopped good-bye`
