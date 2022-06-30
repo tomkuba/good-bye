@@ -12,7 +12,7 @@ Created in OCI using Terraform guide https://docs.oracle.com/en-us/iaas/develope
 2. `npm install`
 3. `npm start`
 
-This should launch the server in port:3000
+This should launch the server using port 3000.
 
 After that open another terminal and do:
 
@@ -25,4 +25,4 @@ or
 `wget -q -O - http://localhost:3000/`
 
 # To run on server:
-`docker build -t good-bye . && docker run -it --restart unless-stopped good-bye`
+`docker build -t good-bye . && docker run -d --restart unless-stopped -p80:3000 good-bye`
