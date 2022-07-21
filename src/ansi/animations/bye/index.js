@@ -180,10 +180,10 @@ const animScene1 = async (stream) => {
 const animScene2 = async (stream) => {
   for (let i = 0; i < 5; i += 1) {
     stream.push(symbols.PAGE_BREAK);
-    stream.push(frames.intern('But also learn from mistakes and struggles', 'and make new memories and frienships.'));
+    stream.push(frames.intern('But also learn from mistakes and struggles', 'and make new memories and friendships.'));
     await delay(600);
     stream.push(symbols.PAGE_BREAK);
-    stream.push(frames.internCloseEyes('But also learn from mistakes and struggles', 'and make new memories and frienships.'));
+    stream.push(frames.internCloseEyes('But also learn from mistakes and struggles', 'and make new memories and friendships.'));
     await delay(500);
   }
   stream.push(symbols.PAGE_BREAK);
