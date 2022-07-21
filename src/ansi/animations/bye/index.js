@@ -129,7 +129,7 @@ const animHi = async (stream) => {
   await delay(2500);
   stream.push(symbols.PAGE_BREAK);
   stream.push(frames.hi(
-    'This is my last week in Netsuite ☹️'));
+    'July 27 is my last day in Netsuite ☹️'));
   await delay(4000);
   stream.push(symbols.PAGE_BREAK);
   stream.push(frames.threeLineText(
